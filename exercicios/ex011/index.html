@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>imagens</title>
+</head>
+<body>
+<h1>Imagens dinamicas</h1>
+  <p> tente abrir a imagen em varios dispositivos ou ajuste o tamanho da tela do navegador</p>
+   <picture>
+    <source media="(max-width:740px )" srcset="image/foto-p.png" type="image/png">
+    <source media="(max-width:1080px)" srcset="image/foto-m.png" type="image/png">
+    <img src="image/foto-g.png" alt="imagen fexivel">
+   </picture>
+<h1>Reproduzindo audio</h1> 
+  <p>vamos aprender a reprodizir audio em html5</p> 
+ <!--<audio src="Od Yishama - E's Jammy Jams.mp3" controls></audio>-->  
+ <audio preload="metadata"controls loop>
+  <source src="Od Yishama - E's Jammy Jams.mp3" type="audio/mpeg">
+  <p>infelizmente seu navegador,nao reprodus este audio,<a href="Od Yishama - E's Jammy Jams.mp3">clik aqui para baixalo</a></p>
+ </audio>
+</body>
+</html>
