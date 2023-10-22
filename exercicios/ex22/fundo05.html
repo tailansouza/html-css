@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alinhamento vertical de imagens</title>
+    <style>
+        body{margin: 0%;}
+        section#conteiner{
+        max-width: auto;
+        background-image: url('imagen/target001.png');
+        padding: 100px;
+        height: 50px;
+        background-color: blueviolet;
+        background-size: 100% 100%;
+        margin: 0%;
+
+        position: relative;
+
+
+        }
+        #conteudo{
+            background-image: url('imagen/target001.png');
+            width: 300px;
+            height: 300px;
+            background-color: blue;
+            background-size: 100% 100%;
+
+            position:absolute;
+            left: 50%;
+           
+
+            transform:translate(25% ,25%)
+
+        }
+    
+    </style>
+</head>
+<body>
+    <section id="conteiner">
+        <article id="conteudo">
+        </article>
+    </section>
+   
+</body>
+</html>
