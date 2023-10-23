@@ -1,6 +1,11 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@400;500;600;700&display=swap');
+
 body{
+    min-height: 100vh;
     margin: 0%;
+    background-color: rgb(211, 210, 210);
 }
 /*cabeçario*/
 header{
@@ -25,4 +30,55 @@ header>p>a:hover{
     
     text-decoration:underline rgb(209, 203, 14);
 }
-/*corpo*/
+/*corpo-sem imagen*/
+.normal{
+    background-color:rgb(245, 248, 202);
+    padding: 70px;}
+.normal>p{
+    font-family: 'Playpen Sans',Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.199);
+    padding: 10px;
+    width: fit-content;
+    font-size: 3.8vh;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.345);
+} 
+/*corpo com imagen*/   
+
+.imagen{
+    padding: 70px;
+}
+.imagen>p{
+    
+    background-color: rgba(0, 0, 0, 0.199);
+    padding: 10px;
+    width: fit-content;
+    font-size: 3.8vh;
+    color: white;
+    border-radius: 5px;
+
+    font-family: 'Playpen Sans',Arial, Helvetica, sans-serif
+}
+
+#ima01{
+    background-image: url('../imagens/background001.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 2px 2px 2px black;
+}
+#ima02{
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+footer>p{
+    background-color: black;
+    text-align: center;
+    color:white;
+    margin: 0px;
+    padding: 10px;
+}
+footer>p>a{
+    text-decoration: none;
+    color: white;
+}
