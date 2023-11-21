@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fomulario 05</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Aula de formulario </h1>
+    <form action="forme.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>sexo</legend>
+            <input type="radio" name="sexo" id="imas"><label for="imas">masculino</label>
+
+            <input type="radio" name="sexo" id="ifem"><label for="ifem">Feminino</label>
+
+        </fieldset>
+        <fieldset>
+         <legend>Esportes favoritos</legend>
+
+         <label for="ifut">futibol</label>
+         <input type="checkbox" name="fut" id="ifut"><br>
+
+         <label for="ivol">volei</label>
+         <input type="checkbox" name="vol" id="ivol"><br>
+
+         <label for="inat">natação</label>
+         <input type="checkbox" name="nat" id="inat"><br>
+
+         <label for="icic">ciclismo</label>
+         <input type="checkbox" name="cic" id="icic"><br>
+
+        </fieldset>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+      
+     
+
+    </form>
+</body>
+</html>
