@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+    <style>*{font-family: Arial, Helvetica, sans-serif;}</style>
+</head>
+<body>
+    <h1>Controles fora do input</h1>
+    <form action="fomula.php">
+
+        <p>
+            <label for="iestado">Estados</label>
+            <select name="est" id="iest">
+                <option value=""select>--escolha--</option>
+                <optgroup label="Região sul" >
+                    <option value="pr">Parana</option>
+                    <option value="sc">Santa catarina</option>
+                    <option value="rs">Rio grande do sul</option>
+                </optgroup>
+                <optgroup label="Regiao Suldeste">
+                    <option value="sp">Sao paulo</option>
+                    <option value="rj">Rio de janeiro</option>
+                    <option value="mt">Mato groço</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="ipro">Profissão</label>
+            <input type="text" name="pro" id="ipro" list="lipro">
+            <datalist id="lipro">
+                <option >Professor</option>
+                <option >Desenvolvedor</option>
+                <option >Soldador</option>
+            </datalist>
+
+        </p>
+        <p>
+            <label for="imens">Mensagen</label><br>
+            <textarea name="mens" id="imens" cols="30" rows="5"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+
+    </form>
+</body>
+</html>
