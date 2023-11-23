@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>output01</title>
+    <style>*{font-family: Arial, Helvetica, sans-serif;}</style>
+</head>
+<body>
+    <h1>Elementos OUTPUT</h1>
+    <form action="ddd.php">
+<p>
+    
+            <label for="inu">numero 1</label>
+            <input type="number" name="nu" id="inu" min="0" max="30"required oninput="isoma.innerHTML=Number(inu.value)+Number(inu2.value)">
+            <br>
+    
+            <label for="inu2">numero 2</label>
+            <input type="number" name="nu2" id="inu2" min="0" max="30" required oninput="isoma.innerHTML=Number(inu.value)+Number(inu2.value)">
+    
+</p>
+<p>
+           <label for="isoma">Soma</label>
+           <output name="soma" id="isoma">0</output>
+</p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+
+        </p>
+    </form> 
+
+
+
+
+</body>
+</html>
