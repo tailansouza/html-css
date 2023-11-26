@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/*estilo tela deitada*/
+body{
+   background: url(../imagen/cev-landscape.jpg);
+   background-position: left,bottom;
+   
+}
