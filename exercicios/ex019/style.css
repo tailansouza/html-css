@@ -1,13 +1,51 @@
 @charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background-image:url(img/pexels-luis-gomes-546819\ \(1\).jpg);
+    background: content;
 
-body{background-color: rgb(151, 248, 248);
+
+    width: 90vw;
+    height: 80vh;
+    margin: auto;
+    max-width: 900px;
+}
+section{background-color: rgba(206, 241, 241, 0.045);
+    
+  
 }
 h1{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 color: rgb(83, 54, 111);
+text-align: center;
 }
 h1#principal{text-align: center;
+
 }
-h2{color: rgb(121, 22, 198);}
-.basico{color:rgb(32, 52, 143) ;}
-.intermediario{color: burlywood;}
-.avançado{color: brown;}
+h2{color: rgb(121, 22, 198);
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.171);
+    width: 80vw;
+    margin: auto;
+    max-width: 900px;
+
+}
+/*.basico{color:rgb(32, 52, 143) ;
+        padding: 10px;*/   
+
+.intermediario{color: rgb(121,22,198);
+    padding: 10px;
+}
+.avançado{color: rgb(121,22,198);
+padding: 10px;}
+p{
+    text-justify: auto;
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.566);
+    width: 80vw;
+    margin: auto;
+}
